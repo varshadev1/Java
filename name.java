@@ -1,12 +1,12 @@
 class name{
     public static void main(String[] args){
         //for loop
-        //1st code using for loop counting 1 to 10
+        //using for loop counting 1 to 10
         // for(int i=0;i<=10;i++){
         //     System.out.println(i);
         // }
 
-        //2nd to find odd number
+        //to find odd number
         // int n=100;
         // for(int i=1;i<=n;i++){
         //     System.out.println(i);
@@ -14,7 +14,7 @@ class name{
         // }
 
 
-        //3rd to find out even number
+        //to find out even number
         // int n=10;
         // for(int i=1;i<=n;i++){
         //     if(i%2==0){
@@ -43,6 +43,7 @@ class name{
     // }
 
 
+    //mulplication of 2 
      int num=2, i=1;
     while(i<=10)
     {
