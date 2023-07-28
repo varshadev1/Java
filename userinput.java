@@ -1,8 +1,11 @@
-class output{
+// package com.company;
+import java.util.Scanner;
+public class userinput{
     // public static void main(String[] args){
     //     Scanner sc = new Scanner(System.in);
+    //     int a;
     //     System.out.println("enter any number");
-    //     int a= sc.nextInt();
+    //     a= sc.nextInt();
     //     System.out.println("You have entered: " + a);           
     // }
   public static void main(String[] args) {
