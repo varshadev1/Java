@@ -54,6 +54,7 @@ class name{
     
     }
 }
-//difference
-//println is used for simply print a line of text.
-//printf is used when u have to fromat ur string .
+difference between printf , println and print
+*println is used for simply print a line of text.
+*printf is used when u have to fromat ur string .
+ *print does not insert a new line at the end of the output:
