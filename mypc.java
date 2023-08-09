@@ -1,13 +1,19 @@
 import java.util.*;
 import java.util.Scanner;
-class mypc{
-    public static void main(String[] args){
-        System.out.println("plz enter a number ");
+
+public class mypc {
+
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int inp = scan.nextInt();
-        for(int i=1;i<=10;i++)
-        {
-        System.out.print(" "+inp*i);
-        }
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        String s= scan.nextLine()+" ";
+        s=scan.nextLine();
+
+        // Write your code here.
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
     }
 }
