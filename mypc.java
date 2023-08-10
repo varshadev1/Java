@@ -1,16 +1,27 @@
-import java.util.*;
 import java.util.Scanner;
 
-public class mypc {
+public class mypc
+{
+	public static void main (String[] args)
+	{
+		Scanner read = new Scanner(System.in);
+		
+		int t = read.nextInt();
+		for(int i=0; i<t; i++)
+		{
+    		int x = read.nextInt();
+    		int y = read.nextInt();
+    		int a = read.nextInt();
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        String s= scan.nextLine()+" ";
-        s=scan.nextLine();
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
-    }
+    		if(a>=x && a < y){
+    		    System.out.println("YES");
+    		}
+    		else {
+    		    System.out.println("NO");
+    		}
+		}
+	}
 }
+
+
+
