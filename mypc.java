@@ -29,3 +29,52 @@ class mypc
 		}
 	}
 }
+
+//if (x) is greater than 100 then it prints (x-100) otherwise print x.
+import java.util.Scanner;
+class mypc {    
+	    public static void main (String[] args)
+	{
+		Scanner read = new Scanner(System.in);
+		int t = read.nextInt();
+		for(int i=0; i<t; i++)
+		{
+    		int x = read.nextInt();
+    		if(x>100){
+    		    System.out.println(x-10);
+    		}
+    		else{
+    		    System.out.println(x);
+    		}
+    		
+		}
+	}
+}
+
+
+
+// odd and even finding within two user entered numbers 
+import java.util.Scanner;
+class mypc
+{
+	public static void main (String[] args)
+	{
+		Scanner read = new Scanner(System.in);
+		int t = read.nextInt();
+		for(int i=0; i<t; i++)
+		{
+    		int a = read.nextInt();
+    		int b = read.nextInt();
+    		
+            if( a != b && (a%2 != 0 && b%2 != 0)){
+                System.out.println("a and b are different and are odd");
+            }
+            else if(a != b && (a%2 == 0 && b%2 == 0)){
+                System.out.println("a and b are different and are even");
+            }
+            else{
+                System.out.println("Doesn't matter");
+            }
+		}
+	}
+}
