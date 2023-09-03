@@ -11,6 +11,7 @@ class mypc
     		int N = read.nextInt();
     		int A = read.nextInt();
     		int B = read.nextInt();
+			//finding odd and even number
             if(N%A == 0 && N%B == 0){
                 System.out.println("N is divisible by A and B");
             }
